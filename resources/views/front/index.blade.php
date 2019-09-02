@@ -4,6 +4,7 @@
 
 @section('mainContent')
 
+  <!-- imagen home -->
   <div class="home">
     <div class="row">
       <div class="col-12">
@@ -12,6 +13,7 @@
     </div>
   </div>
 
+  <!-- banner instagram -->
 	<div id="seguinos-ig" class="banner-insta">
     <div class="row">
       <div class="col-12">
@@ -19,13 +21,54 @@
       </div>
     </div>
   </div>
+  <!-- secciones -->
 
+  <div id="secciones" class="secciones col-12">
+    <a id="link-seccion" class="col-3" href="/">
+      <div id="seccion1" class="seccion1" style="background-image: url(/images/seccion1.jpg);">
+        <div id="titulo" class="titulo-seccion">
+          <span>REMERAS</span>
+        </div>
+      </div>
+    </a>
+
+
+    <a id="link-seccion" class="col-3" href="/">
+      <div id="seccion1" class="seccion1" style="background-image: url(/images/seccion1.jpg);">
+        <div id="titulo" class="titulo-seccion">
+          <span>REMERAS</span>
+        </div>
+      </div>
+    </a>
+
+    <a id="link-seccion" class="col-3" href="/">
+      <div id="seccion1" class="seccion1" style="background-image: url(/images/seccion1.jpg);">
+        <div class="titulo-seccion">
+          <span>ABRIGOS</span>
+        </div>
+      </div>
+    </a>
+
+    <a id="link-seccion" class="col-3" href="/">
+      <div id="seccion1" class="seccion1" style="background-image: url(/images/seccion1.jpg);">
+        <div class="titulo-seccion">
+          <span>NEW ARRIVALS</span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+
+
+  <!-- mapa google -->
 
 	<div id="mapa-google" class="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0618019444473!2d-58.479768849812125!3d-34.627878480357325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc993aeaf67d3%3A0x4733e2e264a30322!2sBrake%20Up!5e0!3m2!1ses-419!2sar!4v1566957011642!5m2!1ses-419!2sar" width="100%" height="600	" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 	</div>
 
-	<div id="banner-wh" class="banner-insta">
+  <!-- banner whatsapp -->
+	<div id="banner-wh" class="banner-wh">
 		<div class="row">
 			<div class="col-12">
 					<a id="texto-wh" href="https://api.whatsapp.com/send?phone=5491130494150&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank">HACE CLIC AQUI Y CONTACTANOS VIA WHATSAPP...TE RESPONDEREMOS A LA BREVEDAD</a>
@@ -33,6 +76,8 @@
 		</div>
 	</div>
 	<br>
+
+  <!-- formulario de contacto -->
 	<div class="base-form">
 		<!-- start base texts -->
 		<div class="base-textos">
@@ -95,8 +140,6 @@
 				</div>
 			</div>
 
-
-
 		</div>
 		<!-- end base texts -->
 
@@ -126,14 +169,14 @@
 	</div>
 
 
-
-
-
+  <!-- boton whatsapp -->
 	<div class="btn-whatsapp">
 		<a id="btn-wh" href="https://api.whatsapp.com/send?phone=5491130494150&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank">
 			<i id="btn-icon" class="fab fa-whatsapp"></i>
 		</a>
 	</div>
+
+
 
 <script src="/js/navbar.js"></script>
 @endsection

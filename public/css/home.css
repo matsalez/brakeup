@@ -13,6 +13,8 @@ height: 100%;
 
 }
 
+/* INSTAGRAM */
+
 #seguinos-ig {
     width: 100%;
     height: auto;
@@ -29,6 +31,56 @@ height: 100%;
     background-color: #5100ba;
     color: #fff;
 }
+
+/* SECCIONES */
+
+#secciones {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#link-seccion {
+
+  height: 250px;
+  width: 100%;
+  padding: 0px;
+
+}
+#seccion1 {
+
+    height: 250px;
+    width: 100%;
+    padding: 0px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.titulo-seccion {
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 0, 68, 0.5);
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* BANNER WHATSAPP */
 
 #banner-wh {
     width: 100%;
@@ -55,6 +107,7 @@ height: 100%;
   text-decoration: none;
 }
 
+/* BOTONERA WHATSAPP */
 
 #btn-wh {
        display: flex;
@@ -72,6 +125,8 @@ height: 100%;
        z-index:20;
        cursor: pointer;
 }
+
+/* FORMULARIO */
 
 .base-form {
 padding: 10px;

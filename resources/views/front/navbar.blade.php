@@ -9,7 +9,7 @@
 
 		<div class="menu-home">
 			<ul class="lista-menu">
-					<li><a id="icono-menu" href="#"><i class="fas fa-bars more"></i></a></li>
+					<li><a id="icono-menu" href=""><i class="fas fa-bars more"></i></a></li>
 			</ul>
 		</div>
 
