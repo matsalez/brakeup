@@ -1,6 +1,6 @@
 @extends('front.template')
 
-@section('pageTitle', 'Página de inicio')
+@section('pageTitle', 'Brake up - Home')
 
 @section('mainContent')
 
@@ -22,41 +22,86 @@
     </div>
   </div>
   <!-- secciones -->
+  <div class="row">
+    <div id="secciones" class="secciones col-12">
+        <a id="link-seccion" class="col-3" href="/">
+          <div id="seccion1" class="seccion1">
+            <img id="img-seccion" src="/images/seccion1.jpg" alt="">
+            <div id="titulo" class="overlay">
+              <span>REMERAS</span>
+            </div>
+          </div>
+        </a>
 
-  <div id="secciones" class="secciones col-12">
-    <a id="link-seccion" class="col-3" href="/">
-      <div id="seccion1" class="seccion1" style="background-image: url(/images/seccion1.jpg);">
-        <div id="titulo" class="titulo-seccion">
-          <span>REMERAS</span>
+        <a id="link-seccion" class="col-3" href="/">
+          <div id="seccion1" class="seccion1">
+            <img id="img-seccion" src="/images/seccion1.jpg" alt="">
+            <div id="titulo" class="overlay">
+              <span>ABRIGOS</span>
+            </div>
+          </div>
+        </a>
+        <a id="link-seccion" class="col-3" href="/">
+          <div id="seccion1" class="seccion1">
+            <img id="img-seccion" src="/images/seccion1.jpg" alt="">
+            <div id="titulo" class="overlay">
+              <span>NEWARRIVALS</span>
+            </div>
+          </div>
+        </a>
+
+        <a id="link-seccion" class="col-3" href="/">
+          <div id="seccion1" class="seccion1">
+            <img id="img-seccion" src="/images/seccion1.jpg" alt="">
+            <div id="titulo" class="overlay">
+              <span>DENIM</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="secciones" class="secciones col-12">
+          <a id="link-seccion" class="col-3" href="/">
+            <div id="seccion1" class="seccion1">
+              <img id="img-seccion" src="/images/seccion1.jpg" alt="">
+              <div id="titulo" class="overlay">
+                <span>REMERAS</span>
+              </div>
+            </div>
+          </a>
+
+          <a id="link-seccion" class="col-3" href="/">
+            <div id="seccion1" class="seccion1">
+              <img id="img-seccion" src="/images/seccion1.jpg" alt="">
+              <div id="titulo" class="overlay">
+                <span>ABRIGOS</span>
+              </div>
+            </div>
+          </a>
+          <a id="link-seccion" class="col-3" href="/">
+            <div id="seccion1" class="seccion1">
+              <img id="img-seccion" src="/images/seccion1.jpg" alt="">
+              <div id="titulo" class="overlay">
+                <span>NEWARRIVALS</span>
+              </div>
+            </div>
+          </a>
+
+          <a id="link-seccion" class="col-3" href="/">
+            <div id="seccion1" class="seccion1">
+              <img id="img-seccion" src="/images/seccion1.jpg" alt="">
+              <div id="titulo" class="overlay">
+                <span>DENIM</span>
+              </div>
+            </div>
+          </a>
+
         </div>
       </div>
-    </a>
 
-
-    <a id="link-seccion" class="col-3" href="/">
-      <div id="seccion1" class="seccion1" style="background-image: url(/images/seccion1.jpg);">
-        <div id="titulo" class="titulo-seccion">
-          <span>REMERAS</span>
-        </div>
-      </div>
-    </a>
-
-    <a id="link-seccion" class="col-3" href="/">
-      <div id="seccion1" class="seccion1" style="background-image: url(/images/seccion1.jpg);">
-        <div class="titulo-seccion">
-          <span>ABRIGOS</span>
-        </div>
-      </div>
-    </a>
-
-    <a id="link-seccion" class="col-3" href="/">
-      <div id="seccion1" class="seccion1" style="background-image: url(/images/seccion1.jpg);">
-        <div class="titulo-seccion">
-          <span>NEW ARRIVALS</span>
-        </div>
-      </div>
-    </a>
-  </div>
 
 
 
@@ -144,7 +189,7 @@
 		<!-- end base texts -->
 
 		<!-- start base inputs -->
-		<div class="base-inputs">
+		<div id="formulario" class="base-inputs">
 			<div class="row">
 				<div class="col-6">
 					<form class="contact" action="" method="post">

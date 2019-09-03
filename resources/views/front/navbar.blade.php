@@ -9,17 +9,17 @@
 
 		<div class="menu-home">
 			<ul class="lista-menu">
-					<li><a id="icono-menu" href=""><i class="fas fa-bars more"></i></a></li>
+					<li><a id="icono-menu" href="#"><i class="fas fa-bars more"></i></a></li>
 			</ul>
 		</div>
 
 		<div class="desplegable">
 			<ul class="">
-				<li><a href="#">QUIENES SOMOS</a></li>
+				<li><a href="#seguinos-ig">| QUIENES SOMOS |</a></li>
 				<br>
-				<li><a href="#">COLECCION</a></li>
+				<li><a href="#secciones">| COLECCION |</a></li>
 				<br>
-				<li><a href="#">CONTACTO</a></li>
+				<li><a href="#formulario">| CONTACTO |</a></li>
 		</ul>
 		</div>
 	</div>
