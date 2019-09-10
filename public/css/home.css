@@ -3,8 +3,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
 }
 
 
@@ -256,3 +254,8 @@ justify-content: space-between;
   color: #202020;
 
 }
+
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }

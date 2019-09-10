@@ -4,12 +4,13 @@ window.onload = init;
         document.querySelector(".desplegable > ul").style.display = "none";
     }
 
-    function submenu(){
-        var estado = document.querySelector(".desplegable > ul").style.display;
-        if (estado == "none"){
-            document.querySelector(".desplegable > ul").style.display = "inline-block";
-        }else{
-            document.querySelector(".desplegable > ul").style.display = "none";
-        };
+    function myFunction(x) {
+        x.classList.toggle("change");
 
-    }
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }

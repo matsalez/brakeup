@@ -6,14 +6,19 @@
 			</a>
 		</div>
 
-
 		<div class="menu-home">
-			<ul class="lista-menu">
-					<li><a id="icono-menu" href="#"><i class="fas fa-bars more"></i></a></li>
+			<ul class="lista-menu" >
+					<li>
+						<div class="container" onclick="myFunction(this)">
+							 <div class="bar1 "></div>
+							 <div class="bar2"></div>
+							 <div class="bar3"></div>
+						</div>
+					</li>
 			</ul>
 		</div>
 
-		<div class="desplegable">
+		<div id="myLinks" class="desplegable">
 			<ul class="">
 				<li><a href="#seguinos-ig">| QUIENES SOMOS |</a></li>
 				<br>

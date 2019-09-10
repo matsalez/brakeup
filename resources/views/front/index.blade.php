@@ -108,9 +108,25 @@
 
   <!-- mapa google -->
 
-	<div id="mapa-google" class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0618019444473!2d-58.479768849812125!3d-34.627878480357325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc993aeaf67d3%3A0x4733e2e264a30322!2sBrake%20Up!5e0!3m2!1ses-419!2sar!4v1566957011642!5m2!1ses-419!2sar" width="100%" height="600	" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-	</div>
+      <div id="map"></div>
+      <script>
+  // Initialize and add the map
+  function initMap() {
+    // The location of Uluru
+    var uluru = {lat:-34.627756898772326, lng:-58.47816451193709,};
+    // The map, centered at Uluru
+    var map = new google.maps.Map(
+        document.getElementById('map'), {zoom:50, center: uluru});
+    // The marker, positioned at Uluru
+    var marker = new google.maps.Marker({position: uluru, map: map});
+  }
+      </script>
+
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgbBoiCfWxdnYNyCVc-hquYhTcc7GVYAg&callback=initMap">
+      </script>
+
+
 
   <!-- banner whatsapp -->
 	<div id="banner-wh" class="banner-wh">
@@ -222,6 +238,6 @@
 	</div>
 
 
-
 <script src="/js/navbar.js"></script>
+<script src="/js/map.js"></script>
 @endsection
